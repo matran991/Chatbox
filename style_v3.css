@@ -61,7 +61,7 @@ sub:hover {color: darkcyan}
 .chat_content a[onclick*="youtube.call"]:before {content: "Bấm vào hình để xem video";position: absolute;left: 0;right: 0;color: white;text-align: center;top: -73px;}
 .chat_content a[onclick*="youtube.call"]:after {content: "\f144";position: absolute;display: block;top: -24px;left: 0;right: 0;text-align: center;color: rgb(216, 14, 14);font-size: 50px;}
 .tab_level {position: absolute;background: cadetblue;color: white;right: 0px;left: 0;bottom: 0px;text-align: center;z-index: 99;display:none;}
-.tab_level span {display: block;padding: 13px;font-size: 12px;cursor: pointer;border-bottom: 1px solid;z-index: 999;position: relative;}
+.tab_level span {display: block;padding: 9px;font-size: 12px;cursor: pointer;border-bottom: 1px solid;z-index: 999;position: relative;}
 .tab_level span:hover {color: red;border-color: white;}
 .chat_content img {max-width: 70%;vertical-align: middle;}
 .tab_level:before {content: "";position: absolute;width: 23px;height: 23px;background: cadetblue;transform: rotate(134deg);top: -12px;left: 92px;z-index: 1;}
