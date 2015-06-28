@@ -65,3 +65,9 @@ sub:hover {color: darkcyan}
 .tab_level span:hover {color: red;border-color: white;}
 .chat_content img {max-width: 70%;vertical-align: middle;}
 .tab_level:before {content: "";position: absolute;width: 23px;height: 23px;background: cadetblue;transform: rotate(134deg);top: -12px;left: 92px;z-index: 1;}
+.load {position: absolute;top: 47%;bottom: 0;right: 0;left: 0;text-align: CENTER;font-size: 30px;color: darkblue;}
+.load span {animation: loading 0.5s infinite;-moz-animation: loading 0.5s infinite; -webkit-animation: loading 0.5s infinite; -o-animation: loading 0.5s infinite;color: rgb(17, 144, 144);}
+keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
+@-webkit-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
+@-o-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
+@-moz-keyframes loading {from {transform:rotate(-360deg);-moz-transform:rotate(-360deg)-webkit-transform: rotate(-360deg)-o-transform:rotate(-360deg) -ms-transform:rotate(-360deg)}  to {transform:rotate(360deg);-moz-transform:rotate(360deg)-webkit-transform: rotate(360deg)-o-transform:rotate(360deg) -ms-transform:rotate(360deg)}}
